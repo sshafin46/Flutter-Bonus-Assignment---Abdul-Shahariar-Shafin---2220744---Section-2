@@ -18,20 +18,17 @@ class DefaultFirebaseOptions {
     if (defaultTargetPlatform == TargetPlatform.macOS) {
       return macos;
     }
-    if (defaultTargetPlatform == TargetPlatform.web) {
-      return web;
-    }
     throw UnsupportedError(
       'DefaultFirebaseOptions are not supported for this platform.',
     );
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    apiKey: 'AIzaSyDB7hTinAddeoy1tLg4j_3Tt0ZcSRPzoeE',
+    appId: '1:659199770728:android:7d2ccb217c81cde5f7fbdd',
+    messagingSenderId: '659199770728',
+    projectId: 'bonus-assignment---2220744-02',
+    storageBucket: 'bonus-assignment---2220744-02.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -67,13 +64,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'YOUR_PROJECT_ID.appspot.com',
     iosBundleId: 'com.example.app',
   );
-
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR_WEB_API_KEY',
-    appId: 'YOUR_WEB_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
-    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
-  );
 }
+

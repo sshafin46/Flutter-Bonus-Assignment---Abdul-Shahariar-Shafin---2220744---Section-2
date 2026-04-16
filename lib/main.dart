@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Assignment 2 - Flutter UI',
+      title: 'Firebase Firestore Task Manager - Bonus Assignment',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         useMaterial3: true,

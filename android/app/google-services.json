@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "659199770728",
+    "firebase_url": "https://bonus-assignment---2220744-02-default-rtdb.firebaseio.com",
+    "project_id": "bonus-assignment---2220744-02",
+    "storage_bucket": "bonus-assignment---2220744-02.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659199770728:android:7d2ccb217c81cde5f7fbdd",
+        "android_client_info": {
+          "package_name": "bonus.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB7hTinAddeoy1tLg4j_3Tt0ZcSRPzoeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
